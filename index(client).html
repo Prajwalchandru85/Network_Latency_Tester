@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat-Based Network Latency Tester</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Latency Tester</h1>
+    <p id="latency">Latency: N/A</p>
+
+    <div id="chatBox">
+        <p><em>Chat messages will appear here...</em></p>
+    </div>
+
+    <input type="text" id="messageInput" placeholder="Type a message..." />
+    <button id="sendButton">Send</button>
+
+    <canvas id="latencyChart"></canvas>
+
+    <script src="latency_tester_script.js"></script>
+</body>
+</html>
